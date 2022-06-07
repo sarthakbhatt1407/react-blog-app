@@ -5,7 +5,7 @@ function App() {
   return (
     <Routes>
       <Route path="" element={<Navigation />}>
-        <Route path="/" element={<Home />} />
+        <Route path="/react-blog-app" element={<Home />} />
       </Route>
     </Routes>
   );
