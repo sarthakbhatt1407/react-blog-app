@@ -83,6 +83,7 @@
     }
 
     .nav-link-container {
+      display: none;
       flex-direction: column;
       gap: 1rem;
       justify-content: center;
@@ -99,7 +100,4 @@
       }
     }
   }
-}
-.active {
-  display: flex;
 }
