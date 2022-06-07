@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import { Link, Outlet } from "react-router-dom";
 import "./navigation.scss";
 const Navigation = () => {
@@ -8,10 +7,10 @@ const Navigation = () => {
     const container = e.target.closest(".container");
     container.classList.toggle("change");
 
-    if (a == 0) {
+    if (a === 0) {
       nav.style.display = "flex";
       a = 1;
-    } else if (a == 1) {
+    } else if (a === 1) {
       nav.style.display = "none";
       a = 0;
     }
