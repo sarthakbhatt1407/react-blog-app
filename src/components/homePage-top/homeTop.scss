@@ -1,0 +1,60 @@
+.main-front-post-conatiner {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  //   color: white;
+  .front-post {
+    border-radius: 0.4rem;
+    color: white;
+    position: relative;
+    h2 {
+      font-size: 25px;
+      position: absolute;
+      top: 7rem;
+      left: 4rem;
+      span {
+        display: block;
+      }
+    }
+    p {
+      position: absolute;
+      top: 11.5rem;
+      color: rgba(255, 255, 255, 0.623);
+      left: 4rem;
+    }
+  }
+
+  .front-post1 {
+    background-image: url(../../assets//images/nat-1-large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    grid-row: 1 / span 2;
+    width: 1000px;
+    height: 500px;
+    h2 {
+      font-size: 30px;
+      position: absolute;
+      top: 20rem;
+      left: 4rem;
+    }
+    p {
+      position: absolute;
+      top: 24rem;
+      color: rgba(255, 255, 255, 0.623);
+      left: 4rem;
+    }
+  }
+  .front-post2 {
+    background-image: url(../../assets//images/nat-1-large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .front-post3 {
+    background-image: url(../../assets//images/nat-1-large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}

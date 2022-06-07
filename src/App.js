@@ -4,8 +4,8 @@ import Home from "./components/home/home";
 function App() {
   return (
     <Routes>
-      <Route path="" element={<Navigation />}>
-        <Route path="/react-blog-app" element={<Home />} />
+      <Route path="/react-blog-app/" element={<Navigation />}>
+        <Route path="/react-blog-app/" element={<Home />} />
       </Route>
     </Routes>
   );

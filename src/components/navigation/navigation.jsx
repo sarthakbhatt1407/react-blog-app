@@ -14,7 +14,6 @@ const Navigation = () => {
       nav.style.display = "none";
       a = 0;
     }
-    console.log(nav);
   };
   return (
     <div className="main-box">

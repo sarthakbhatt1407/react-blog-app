@@ -1,4 +1,11 @@
+import { Fragment } from "react";
+import HomeTop from "../homePage-top/homeTop";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <Fragment>
+      <HomeTop />
+    </Fragment>
+  );
 };
 export default Home;
